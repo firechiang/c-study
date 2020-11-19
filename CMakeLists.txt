@@ -3,4 +3,4 @@ project(c_study)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(c_study helloword/c-03-operation.cpp)
+add_executable(c_study helloword/c-06-vector.cpp)

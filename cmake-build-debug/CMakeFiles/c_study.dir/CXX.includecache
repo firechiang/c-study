@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-06-vector.cpp
+stdio.h
+-
+iostream
+-
+vector
+-
+

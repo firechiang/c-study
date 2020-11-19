@@ -143,32 +143,32 @@ c_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/build
 .PHONY : c_study/fast
 
-helloword/c-03-operation.o: helloword/c-03-operation.cpp.o
+helloword/c-06-vector.o: helloword/c-06-vector.cpp.o
 
-.PHONY : helloword/c-03-operation.o
+.PHONY : helloword/c-06-vector.o
 
 # target to build an object file
-helloword/c-03-operation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-03-operation.cpp.o
-.PHONY : helloword/c-03-operation.cpp.o
+helloword/c-06-vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-06-vector.cpp.o
+.PHONY : helloword/c-06-vector.cpp.o
 
-helloword/c-03-operation.i: helloword/c-03-operation.cpp.i
+helloword/c-06-vector.i: helloword/c-06-vector.cpp.i
 
-.PHONY : helloword/c-03-operation.i
+.PHONY : helloword/c-06-vector.i
 
 # target to preprocess a source file
-helloword/c-03-operation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-03-operation.cpp.i
-.PHONY : helloword/c-03-operation.cpp.i
+helloword/c-06-vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-06-vector.cpp.i
+.PHONY : helloword/c-06-vector.cpp.i
 
-helloword/c-03-operation.s: helloword/c-03-operation.cpp.s
+helloword/c-06-vector.s: helloword/c-06-vector.cpp.s
 
-.PHONY : helloword/c-03-operation.s
+.PHONY : helloword/c-06-vector.s
 
 # target to generate assembly for a file
-helloword/c-03-operation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-03-operation.cpp.s
-.PHONY : helloword/c-03-operation.cpp.s
+helloword/c-06-vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-06-vector.cpp.s
+.PHONY : helloword/c-06-vector.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_study"
-	@echo "... helloword/c-03-operation.o"
-	@echo "... helloword/c-03-operation.i"
-	@echo "... helloword/c-03-operation.s"
+	@echo "... helloword/c-06-vector.o"
+	@echo "... helloword/c-06-vector.i"
+	@echo "... helloword/c-06-vector.s"
 .PHONY : help
 
 
