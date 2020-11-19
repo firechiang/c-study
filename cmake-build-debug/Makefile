@@ -143,32 +143,32 @@ c_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/build
 .PHONY : c_study/fast
 
-main.o: main.cpp.o
+helloword/c-03-operation.o: helloword/c-03-operation.cpp.o
 
-.PHONY : main.o
+.PHONY : helloword/c-03-operation.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/main.cpp.o
-.PHONY : main.cpp.o
+helloword/c-03-operation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-03-operation.cpp.o
+.PHONY : helloword/c-03-operation.cpp.o
 
-main.i: main.cpp.i
+helloword/c-03-operation.i: helloword/c-03-operation.cpp.i
 
-.PHONY : main.i
+.PHONY : helloword/c-03-operation.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/main.cpp.i
-.PHONY : main.cpp.i
+helloword/c-03-operation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-03-operation.cpp.i
+.PHONY : helloword/c-03-operation.cpp.i
 
-main.s: main.cpp.s
+helloword/c-03-operation.s: helloword/c-03-operation.cpp.s
 
-.PHONY : main.s
+.PHONY : helloword/c-03-operation.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/main.cpp.s
-.PHONY : main.cpp.s
+helloword/c-03-operation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-03-operation.cpp.s
+.PHONY : helloword/c-03-operation.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_study"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... helloword/c-03-operation.o"
+	@echo "... helloword/c-03-operation.i"
+	@echo "... helloword/c-03-operation.s"
 .PHONY : help
 
 
