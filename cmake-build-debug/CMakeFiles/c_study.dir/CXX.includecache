@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-06-vector.cpp
+/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-08-Pointer.cpp
 stdio.h
 -
 iostream
--
-vector
 -
 

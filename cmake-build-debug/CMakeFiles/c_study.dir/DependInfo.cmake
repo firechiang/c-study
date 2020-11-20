@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-06-vector.cpp" "/home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug/CMakeFiles/c_study.dir/helloword/c-06-vector.cpp.o"
+  "/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-08-pointer.cpp" "/home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug/CMakeFiles/c_study.dir/helloword/c-08-pointer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

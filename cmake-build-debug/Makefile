@@ -143,32 +143,32 @@ c_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/build
 .PHONY : c_study/fast
 
-helloword/c-06-vector.o: helloword/c-06-vector.cpp.o
+helloword/c-08-pointer.o: helloword/c-08-pointer.cpp.o
 
-.PHONY : helloword/c-06-vector.o
+.PHONY : helloword/c-08-pointer.o
 
 # target to build an object file
-helloword/c-06-vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-06-vector.cpp.o
-.PHONY : helloword/c-06-vector.cpp.o
+helloword/c-08-pointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-08-pointer.cpp.o
+.PHONY : helloword/c-08-pointer.cpp.o
 
-helloword/c-06-vector.i: helloword/c-06-vector.cpp.i
+helloword/c-08-pointer.i: helloword/c-08-pointer.cpp.i
 
-.PHONY : helloword/c-06-vector.i
+.PHONY : helloword/c-08-pointer.i
 
 # target to preprocess a source file
-helloword/c-06-vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-06-vector.cpp.i
-.PHONY : helloword/c-06-vector.cpp.i
+helloword/c-08-pointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-08-pointer.cpp.i
+.PHONY : helloword/c-08-pointer.cpp.i
 
-helloword/c-06-vector.s: helloword/c-06-vector.cpp.s
+helloword/c-08-pointer.s: helloword/c-08-pointer.cpp.s
 
-.PHONY : helloword/c-06-vector.s
+.PHONY : helloword/c-08-pointer.s
 
 # target to generate assembly for a file
-helloword/c-06-vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-06-vector.cpp.s
-.PHONY : helloword/c-06-vector.cpp.s
+helloword/c-08-pointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-08-pointer.cpp.s
+.PHONY : helloword/c-08-pointer.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_study"
-	@echo "... helloword/c-06-vector.o"
-	@echo "... helloword/c-06-vector.i"
-	@echo "... helloword/c-06-vector.s"
+	@echo "... helloword/c-08-pointer.o"
+	@echo "... helloword/c-08-pointer.i"
+	@echo "... helloword/c-08-pointer.s"
 .PHONY : help
 
 
