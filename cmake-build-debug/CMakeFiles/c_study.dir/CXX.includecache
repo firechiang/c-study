@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-08-Pointer.cpp
+/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-08-pointer.cpp
 stdio.h
 -
 iostream
