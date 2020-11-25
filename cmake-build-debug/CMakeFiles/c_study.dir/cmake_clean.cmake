@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_study.dir/helloword/c-08-pointer.cpp.o"
+  "CMakeFiles/c_study.dir/helloword/c-13-pointer-quote.cpp.o"
   "c_study"
   "c_study.pdb"
 )

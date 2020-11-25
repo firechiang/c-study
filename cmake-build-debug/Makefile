@@ -143,32 +143,32 @@ c_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/build
 .PHONY : c_study/fast
 
-helloword/c-08-pointer.o: helloword/c-08-pointer.cpp.o
+helloword/c-13-pointer-quote.o: helloword/c-13-pointer-quote.cpp.o
 
-.PHONY : helloword/c-08-pointer.o
+.PHONY : helloword/c-13-pointer-quote.o
 
 # target to build an object file
-helloword/c-08-pointer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-08-pointer.cpp.o
-.PHONY : helloword/c-08-pointer.cpp.o
+helloword/c-13-pointer-quote.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-13-pointer-quote.cpp.o
+.PHONY : helloword/c-13-pointer-quote.cpp.o
 
-helloword/c-08-pointer.i: helloword/c-08-pointer.cpp.i
+helloword/c-13-pointer-quote.i: helloword/c-13-pointer-quote.cpp.i
 
-.PHONY : helloword/c-08-pointer.i
+.PHONY : helloword/c-13-pointer-quote.i
 
 # target to preprocess a source file
-helloword/c-08-pointer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-08-pointer.cpp.i
-.PHONY : helloword/c-08-pointer.cpp.i
+helloword/c-13-pointer-quote.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-13-pointer-quote.cpp.i
+.PHONY : helloword/c-13-pointer-quote.cpp.i
 
-helloword/c-08-pointer.s: helloword/c-08-pointer.cpp.s
+helloword/c-13-pointer-quote.s: helloword/c-13-pointer-quote.cpp.s
 
-.PHONY : helloword/c-08-pointer.s
+.PHONY : helloword/c-13-pointer-quote.s
 
 # target to generate assembly for a file
-helloword/c-08-pointer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-08-pointer.cpp.s
-.PHONY : helloword/c-08-pointer.cpp.s
+helloword/c-13-pointer-quote.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-13-pointer-quote.cpp.s
+.PHONY : helloword/c-13-pointer-quote.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_study"
-	@echo "... helloword/c-08-pointer.o"
-	@echo "... helloword/c-08-pointer.i"
-	@echo "... helloword/c-08-pointer.s"
+	@echo "... helloword/c-13-pointer-quote.o"
+	@echo "... helloword/c-13-pointer-quote.i"
+	@echo "... helloword/c-13-pointer-quote.s"
 .PHONY : help
 
 
