@@ -143,32 +143,32 @@ c_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/build
 .PHONY : c_study/fast
 
-helloword/c-13-pointer-quote.o: helloword/c-13-pointer-quote.cpp.o
+helloword/c-15-method.o: helloword/c-15-method.cpp.o
 
-.PHONY : helloword/c-13-pointer-quote.o
+.PHONY : helloword/c-15-method.o
 
 # target to build an object file
-helloword/c-13-pointer-quote.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-13-pointer-quote.cpp.o
-.PHONY : helloword/c-13-pointer-quote.cpp.o
+helloword/c-15-method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-15-method.cpp.o
+.PHONY : helloword/c-15-method.cpp.o
 
-helloword/c-13-pointer-quote.i: helloword/c-13-pointer-quote.cpp.i
+helloword/c-15-method.i: helloword/c-15-method.cpp.i
 
-.PHONY : helloword/c-13-pointer-quote.i
+.PHONY : helloword/c-15-method.i
 
 # target to preprocess a source file
-helloword/c-13-pointer-quote.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-13-pointer-quote.cpp.i
-.PHONY : helloword/c-13-pointer-quote.cpp.i
+helloword/c-15-method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-15-method.cpp.i
+.PHONY : helloword/c-15-method.cpp.i
 
-helloword/c-13-pointer-quote.s: helloword/c-13-pointer-quote.cpp.s
+helloword/c-15-method.s: helloword/c-15-method.cpp.s
 
-.PHONY : helloword/c-13-pointer-quote.s
+.PHONY : helloword/c-15-method.s
 
 # target to generate assembly for a file
-helloword/c-13-pointer-quote.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-13-pointer-quote.cpp.s
-.PHONY : helloword/c-13-pointer-quote.cpp.s
+helloword/c-15-method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-15-method.cpp.s
+.PHONY : helloword/c-15-method.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_study"
-	@echo "... helloword/c-13-pointer-quote.o"
-	@echo "... helloword/c-13-pointer-quote.i"
-	@echo "... helloword/c-13-pointer-quote.s"
+	@echo "... helloword/c-15-method.o"
+	@echo "... helloword/c-15-method.i"
+	@echo "... helloword/c-15-method.s"
 .PHONY : help
 
 

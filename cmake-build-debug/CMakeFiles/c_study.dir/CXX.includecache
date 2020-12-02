@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-13-pointer-quote.cpp
+/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-15-method.cpp
 stdio.h
 -
 iostream
--
-assert.h
 -
 

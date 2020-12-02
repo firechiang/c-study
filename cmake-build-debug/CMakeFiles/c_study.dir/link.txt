@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/c_study.dir/helloword/c-13-pointer-quote.cpp.o  -o c_study 
+/usr/bin/c++  -g   CMakeFiles/c_study.dir/helloword/c-15-method.cpp.o  -o c_study 
