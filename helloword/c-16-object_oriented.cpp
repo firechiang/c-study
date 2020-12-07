@@ -76,6 +76,59 @@ public:
         return *this;
     }
 
+    /**
+     * 运算符重载函数（就是可以让对象有 对象++ 的操作（注意：参数位加了int关键字表示后置++，没有int就表示前置++）（这个函数一般不需要重写默认就有）），注意：const Person& 表示参数p的引用不允许被修改
+     * 先++再返回
+     * @param p
+     * @return
+     */
+    Person& operator++() {
+        // 先++
+        age++;
+        // 再赋值
+        return *this;
+    }
+
+    /**
+     * 运算符重载函数（就是可以让对象有 ++对象 的操作（注意：参数位加了int关键字表示后置++，没有int就表示前置++）（这个函数一般不需要重写默认就有）），注意：const Person& 表示参数p的引用不允许被修改
+     * 先返回再++
+     * @param p
+     * @return
+     */
+    Person operator++(int) {
+        // 拷贝当前引用创建一个对象，用于返回
+        Person temp(*this);
+        // 当前对象进行++操作
+        age++;
+        // 返回拷贝对象也是旧对象旧值
+        return temp;
+        // 这个和上面的写法一致
+        //return Person(name,age++);
+    }
+    /**
+     * 运算符重载函数（就是可以让对象有 cout << person << endl; 的操作，就是控制台输出（这个函数一般不需要重写默认就有）），注意：const Person& 表示参数p的引用不允许被修改
+     * 类似于 toString
+     * 注意：friend关键字是为了使其他函数可以直接访问该类的私有变量。即：允许外面的类或函数去访问类的私有变量和保护变量，从而使两个类共享同一函数
+     * @param p
+     * @return
+     */
+    friend ostream& operator << (ostream& os,const Person& p) {
+        os << "name=" << p.name << ",age=" << p.age;
+        return os;
+    }
+
+    /**
+     * 运算符重载函数（就是可以让对象有 cout >> person; 的操作
+     * 将控制台输入的的值赋给对象（注意：使用空格隔开字段）
+     * 注意：friend关键字是为了使其他函数可以直接访问该类的私有变量。即：允许外面的类或函数去访问类的私有变量和保护变量，从而使两个类共享同一函数
+     * @param p
+     * @return
+     */
+    friend istream& operator >> (istream& is,Person& p) {
+        is >> p.age >> p.name;
+        return is;
+    }
+
     // 释构函数，就是对象内存被回收时调用（注意：释构函数是固定写法就是类名前面再加个～，还有virtual关键字表示该函数可以被重写）
     virtual ~Person() {
         cout << "age=" << age <<"的Person被销毁了" << endl;
@@ -116,7 +169,10 @@ int main() {
     cout << "两个对象相加后p3的age=" << p3.getAge() << endl;
     // 注意：这个操作会调用到我们重写的运算符重载函数里面去，而且会使用拷贝构造器构造，因为它是直接初始化加赋值且没有任何运算符相关操作
     Person p4 = p1;
-
+    // 注意：代码执行到这里需要在控制台输入两个值（age 和 name 的值），它会把这两个值赋给p4对象（注意：这个 >> 流向算符号我们重写了该函数）
+    //cin >> p4;
+    // 注意：这个流向符号我们重写了该函数，否则不能这样写的
+    cout << p4 << endl;
     return EXIT_SUCCESS;
 }
 

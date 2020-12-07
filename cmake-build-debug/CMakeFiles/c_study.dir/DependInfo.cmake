@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-16-object_oriented.cpp" "/home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug/CMakeFiles/c_study.dir/helloword/c-16-object_oriented.cpp.o"
+  "/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-17-disk_io.cpp" "/home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug/CMakeFiles/c_study.dir/helloword/c-17-disk_io.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
