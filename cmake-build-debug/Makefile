@@ -143,32 +143,32 @@ c_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/build
 .PHONY : c_study/fast
 
-helloword/c-17-disk_io.o: helloword/c-17-disk_io.cpp.o
+design-mode/c-01-single.o: design-mode/c-01-single.cpp.o
 
-.PHONY : helloword/c-17-disk_io.o
+.PHONY : design-mode/c-01-single.o
 
 # target to build an object file
-helloword/c-17-disk_io.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-17-disk_io.cpp.o
-.PHONY : helloword/c-17-disk_io.cpp.o
+design-mode/c-01-single.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-01-single.cpp.o
+.PHONY : design-mode/c-01-single.cpp.o
 
-helloword/c-17-disk_io.i: helloword/c-17-disk_io.cpp.i
+design-mode/c-01-single.i: design-mode/c-01-single.cpp.i
 
-.PHONY : helloword/c-17-disk_io.i
+.PHONY : design-mode/c-01-single.i
 
 # target to preprocess a source file
-helloword/c-17-disk_io.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-17-disk_io.cpp.i
-.PHONY : helloword/c-17-disk_io.cpp.i
+design-mode/c-01-single.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-01-single.cpp.i
+.PHONY : design-mode/c-01-single.cpp.i
 
-helloword/c-17-disk_io.s: helloword/c-17-disk_io.cpp.s
+design-mode/c-01-single.s: design-mode/c-01-single.cpp.s
 
-.PHONY : helloword/c-17-disk_io.s
+.PHONY : design-mode/c-01-single.s
 
 # target to generate assembly for a file
-helloword/c-17-disk_io.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/helloword/c-17-disk_io.cpp.s
-.PHONY : helloword/c-17-disk_io.cpp.s
+design-mode/c-01-single.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-01-single.cpp.s
+.PHONY : design-mode/c-01-single.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_study"
-	@echo "... helloword/c-17-disk_io.o"
-	@echo "... helloword/c-17-disk_io.i"
-	@echo "... helloword/c-17-disk_io.s"
+	@echo "... design-mode/c-01-single.o"
+	@echo "... design-mode/c-01-single.i"
+	@echo "... design-mode/c-01-single.s"
 .PHONY : help
 
 

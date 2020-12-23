@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-17-disk_io.cpp" "/home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug/CMakeFiles/c_study.dir/helloword/c-17-disk_io.cpp.o"
+  "/home/chiangfire/idea/workspace-cpp/c-study/design-mode/c-01-single.cpp" "/home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug/CMakeFiles/c_study.dir/design-mode/c-01-single.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  ".././helloword"
   )
 
 # Targets to which this target links.

@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/chiangfire/idea/workspace-cpp/c-study/./helloword"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/c++/10/x86_64-suse-linux"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -67,6 +68,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/chiangfire/idea/workspace-cpp/c-study/./helloword"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/c++/10/x86_64-suse-linux"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -84,7 +86,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/chiangfire/idea/workspace-cpp/c-study/helloword/c-17-disk_io.cpp">
+		<Unit filename="/home/chiangfire/idea/workspace-cpp/c-study/design-mode/c-01-single.cpp">
 			<Option target="c_study"/>
 		</Unit>
 		<Unit filename="/home/chiangfire/idea/workspace-cpp/c-study/CMakeLists.txt">

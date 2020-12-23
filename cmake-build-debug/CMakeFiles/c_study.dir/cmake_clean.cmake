@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_study.dir/helloword/c-17-disk_io.cpp.o"
+  "CMakeFiles/c_study.dir/design-mode/c-01-single.cpp.o"
   "c_study"
   "c_study.pdb"
 )

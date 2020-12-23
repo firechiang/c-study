@@ -44,6 +44,13 @@ public:
         age = person.age;
         cout << "触发了拷贝构造器" << endl;
     }
+//    传递使用 std::move(person) 包装过的参数（具体move语义请看前面的记录），也就是引用的引用
+//    Person(Person&& person) {
+//        name = person.name;
+//        age = person.age;
+//        资源让渡
+//        person = NULL;
+//    }
 
     /**
      * 运算符重载函数（就是可以让两个对象使用+号运算），注意：const Person& 表示参数p的引用不允许被修改

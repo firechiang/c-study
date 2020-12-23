@@ -3,4 +3,6 @@ project(c_study)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(c_study helloword/c-17-disk_io.cpp)
+INCLUDE_DIRECTORIES(./helloword)
+
+add_executable(c_study design-mode/c-01-single.cpp)
