@@ -143,32 +143,32 @@ c_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/build
 .PHONY : c_study/fast
 
-design-mode/c-01-single.o: design-mode/c-01-single.cpp.o
+design-mode/c-02-observer.o: design-mode/c-02-observer.cpp.o
 
-.PHONY : design-mode/c-01-single.o
+.PHONY : design-mode/c-02-observer.o
 
 # target to build an object file
-design-mode/c-01-single.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-01-single.cpp.o
-.PHONY : design-mode/c-01-single.cpp.o
+design-mode/c-02-observer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-02-observer.cpp.o
+.PHONY : design-mode/c-02-observer.cpp.o
 
-design-mode/c-01-single.i: design-mode/c-01-single.cpp.i
+design-mode/c-02-observer.i: design-mode/c-02-observer.cpp.i
 
-.PHONY : design-mode/c-01-single.i
+.PHONY : design-mode/c-02-observer.i
 
 # target to preprocess a source file
-design-mode/c-01-single.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-01-single.cpp.i
-.PHONY : design-mode/c-01-single.cpp.i
+design-mode/c-02-observer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-02-observer.cpp.i
+.PHONY : design-mode/c-02-observer.cpp.i
 
-design-mode/c-01-single.s: design-mode/c-01-single.cpp.s
+design-mode/c-02-observer.s: design-mode/c-02-observer.cpp.s
 
-.PHONY : design-mode/c-01-single.s
+.PHONY : design-mode/c-02-observer.s
 
 # target to generate assembly for a file
-design-mode/c-01-single.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-01-single.cpp.s
-.PHONY : design-mode/c-01-single.cpp.s
+design-mode/c-02-observer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-02-observer.cpp.s
+.PHONY : design-mode/c-02-observer.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_study"
-	@echo "... design-mode/c-01-single.o"
-	@echo "... design-mode/c-01-single.i"
-	@echo "... design-mode/c-01-single.s"
+	@echo "... design-mode/c-02-observer.o"
+	@echo "... design-mode/c-02-observer.i"
+	@echo "... design-mode/c-02-observer.s"
 .PHONY : help
 
 

@@ -86,7 +86,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/chiangfire/idea/workspace-cpp/c-study/design-mode/c-01-single.cpp">
+		<Unit filename="/home/chiangfire/idea/workspace-cpp/c-study/design-mode/c-02-observer.cpp">
 			<Option target="c_study"/>
 		</Unit>
 		<Unit filename="/home/chiangfire/idea/workspace-cpp/c-study/CMakeLists.txt">

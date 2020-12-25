@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 INCLUDE_DIRECTORIES(./helloword)
 
-add_executable(c_study design-mode/c-01-single.cpp)
+add_executable(c_study design-mode/c-02-observer.cpp)

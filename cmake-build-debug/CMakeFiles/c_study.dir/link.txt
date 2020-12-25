@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/c_study.dir/design-mode/c-01-single.cpp.o  -o c_study 
+/usr/bin/c++  -g   CMakeFiles/c_study.dir/design-mode/c-02-observer.cpp.o  -o c_study 
