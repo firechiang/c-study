@@ -6,3 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/chiangfire/idea/workspace-cpp/c-study/design-mode/c-05-container.cpp
+stdio.h
+-
+algorithm
+-
+iostream
+-
+vector
+-
+list
+-
+queue
+-
+stack
+-
+

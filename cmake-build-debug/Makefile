@@ -143,32 +143,32 @@ c_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/build
 .PHONY : c_study/fast
 
-design-mode/c-02-observer.o: design-mode/c-02-observer.cpp.o
+design-mode/c-05-container.o: design-mode/c-05-container.cpp.o
 
-.PHONY : design-mode/c-02-observer.o
+.PHONY : design-mode/c-05-container.o
 
 # target to build an object file
-design-mode/c-02-observer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-02-observer.cpp.o
-.PHONY : design-mode/c-02-observer.cpp.o
+design-mode/c-05-container.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-05-container.cpp.o
+.PHONY : design-mode/c-05-container.cpp.o
 
-design-mode/c-02-observer.i: design-mode/c-02-observer.cpp.i
+design-mode/c-05-container.i: design-mode/c-05-container.cpp.i
 
-.PHONY : design-mode/c-02-observer.i
+.PHONY : design-mode/c-05-container.i
 
 # target to preprocess a source file
-design-mode/c-02-observer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-02-observer.cpp.i
-.PHONY : design-mode/c-02-observer.cpp.i
+design-mode/c-05-container.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-05-container.cpp.i
+.PHONY : design-mode/c-05-container.cpp.i
 
-design-mode/c-02-observer.s: design-mode/c-02-observer.cpp.s
+design-mode/c-05-container.s: design-mode/c-05-container.cpp.s
 
-.PHONY : design-mode/c-02-observer.s
+.PHONY : design-mode/c-05-container.s
 
 # target to generate assembly for a file
-design-mode/c-02-observer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-02-observer.cpp.s
-.PHONY : design-mode/c-02-observer.cpp.s
+design-mode/c-05-container.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-05-container.cpp.s
+.PHONY : design-mode/c-05-container.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_study"
-	@echo "... design-mode/c-02-observer.o"
-	@echo "... design-mode/c-02-observer.i"
-	@echo "... design-mode/c-02-observer.s"
+	@echo "... design-mode/c-05-container.o"
+	@echo "... design-mode/c-05-container.i"
+	@echo "... design-mode/c-05-container.s"
 .PHONY : help
 
 
