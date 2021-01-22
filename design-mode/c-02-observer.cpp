@@ -107,7 +107,7 @@ struct Observerable {
         void notify(void* pArg) {
             auto it = _Obses.begin();
             for(;it != _Obses.end();it++) {
-                // 调用被观察者对象里面的action()函数（注意：-> 和 . 意思差不多。但是->可以调用被重写的函数。而. 不行 . 只能调用实际已经定义被实现的函数）
+                // 调用被观察者对象里面的action()函数（注意：-> 和 . 意思差不多。但是->可以调用被重写的函数，且适用于指针。而. 不行 . 只能调用实际已经定义被实现的函数）
                 (*it) -> action(pArg);
             }
         }

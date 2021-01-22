@@ -61,7 +61,7 @@ const SingleInstance* SingleInstance::getInstance() {
 
 
 int main() {
-    // 获取到对象实列后调用 print()函数（注意：-> 一般用于成员提取，比如 A -> B 就相当于JAVA的 A.B（也就是获取A对象里面的B变量） 当然如果B是函数就会去调用B函数）
+    // 获取到对象实列后调用 print()函数（注意：-> 一般用于成员提取(适用于指针)，比如 A -> B 就相当于JAVA的 A.B（也就是获取A对象里面的B变量） 当然如果B是函数就会去调用B函数）
     SingleInstance::getInstance() -> print();
     return EXIT_SUCCESS;
 }

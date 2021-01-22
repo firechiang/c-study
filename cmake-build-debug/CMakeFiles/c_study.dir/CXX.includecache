@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/chiangfire/idea/workspace-cpp/c-study/design-mode/c-05-container.cpp
+/home/chiangfire/idea/workspace-cpp/c-study/design-mode/c-06-map.cpp
 stdio.h
--
-algorithm
 -
 iostream
 -
-vector
+map
 -
-list
+string
 -
-queue
--
-stack
+algorithm
 -
 
