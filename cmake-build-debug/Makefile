@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/chiangfire/idea/clion-2020.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/chiangfire/idea/clion-2020.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/chiangfire/idea/clion-2020.2.4/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/chiangfire/idea/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/chiangfire/idea/clion-2020.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/chiangfire/idea/clion-2020.3.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -90,7 +90,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/chiangfire/idea/clion-2020.2.4/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/chiangfire/idea/clion-2020.3.1/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -143,32 +143,32 @@ c_study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/build
 .PHONY : c_study/fast
 
-design-mode/c-06-map.o: design-mode/c-06-map.cpp.o
+design-mode/c-13-thread.o: design-mode/c-13-thread.cpp.o
 
-.PHONY : design-mode/c-06-map.o
+.PHONY : design-mode/c-13-thread.o
 
 # target to build an object file
-design-mode/c-06-map.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-06-map.cpp.o
-.PHONY : design-mode/c-06-map.cpp.o
+design-mode/c-13-thread.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-13-thread.cpp.o
+.PHONY : design-mode/c-13-thread.cpp.o
 
-design-mode/c-06-map.i: design-mode/c-06-map.cpp.i
+design-mode/c-13-thread.i: design-mode/c-13-thread.cpp.i
 
-.PHONY : design-mode/c-06-map.i
+.PHONY : design-mode/c-13-thread.i
 
 # target to preprocess a source file
-design-mode/c-06-map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-06-map.cpp.i
-.PHONY : design-mode/c-06-map.cpp.i
+design-mode/c-13-thread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-13-thread.cpp.i
+.PHONY : design-mode/c-13-thread.cpp.i
 
-design-mode/c-06-map.s: design-mode/c-06-map.cpp.s
+design-mode/c-13-thread.s: design-mode/c-13-thread.cpp.s
 
-.PHONY : design-mode/c-06-map.s
+.PHONY : design-mode/c-13-thread.s
 
 # target to generate assembly for a file
-design-mode/c-06-map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-06-map.cpp.s
-.PHONY : design-mode/c-06-map.cpp.s
+design-mode/c-13-thread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_study.dir/build.make CMakeFiles/c_study.dir/design-mode/c-13-thread.cpp.s
+.PHONY : design-mode/c-13-thread.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_study"
-	@echo "... design-mode/c-06-map.o"
-	@echo "... design-mode/c-06-map.i"
-	@echo "... design-mode/c-06-map.s"
+	@echo "... design-mode/c-13-thread.o"
+	@echo "... design-mode/c-13-thread.i"
+	@echo "... design-mode/c-13-thread.s"
 .PHONY : help
 
 

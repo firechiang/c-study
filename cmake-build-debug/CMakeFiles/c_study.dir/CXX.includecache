@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/chiangfire/idea/workspace-cpp/c-study/design-mode/c-06-map.cpp
+/home/chiangfire/idea/workspace-cpp/c-study/design-mode/c-13-thread.cpp
+thread
+-
 stdio.h
 -
 iostream
 -
-map
--
-string
--
-algorithm
+mutex
 -
 

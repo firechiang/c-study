@@ -26,10 +26,20 @@ int main() {
     map<string,double> smap;
     // map添加一个元素
     smap["a"] = 20.8;
-    // 使用insert函数给map添加元素（注意：pair也是一个数据对象）
+    /**
+     * 使用insert函数给map添加元素（注意：pair也是一个数据对象）
+     * 注意：insert()函数插入元素，如果元素已存在，就不会插入了，也你不会修改
+     */
     smap.insert(pair<string,double>("b",30.54));
-    // 使用insert函数给map添加元素（注意：map<string,double>::value_type也是一个数据对象）
+    /**
+     * 使用insert函数给map添加元素（注意：map<string,double>::value_type也是一个数据对象）
+     * 注意：insert()函数插入元素，如果元素已存在，就不会插入了，也你不会修改
+     */
     smap.insert(map<string,double>::value_type("c",63.10));
+    // 删除元素（返回被删除的元素）
+    //smap.erase("c");
+    // 删除所有元素（注意：这个其实是通过范围删除）
+    //smap.erase(smap.begin(),smap.end());
     /**
      * for_each遍历map
      * @param __first 开始位置
@@ -43,6 +53,31 @@ int main() {
     if(it != smap.end()) {
         cout << "it的key=" << (it->first) << endl;
     }
+
+    map<string,double>::iterator ii;
+    ii = smap.begin();
+    // 再循环内删除元素
+    while(ii != smap.end()) {
+        cout << "二次遍历，key=" << (ii->first) << ",value=" << (ii->second) << endl;
+        if(ii->first == "c") {
+            // 删除元素（注意：++一定要写否则无法遍历到下一个元素（因为指针没有移动，永远指向当前元素，当然也不会等于smap.end()），会陷入死循环）
+            // 注意：删除了就不能再++了，所以要先赋值再++（函数是++后才执行的，且参数是++之前的值）
+            smap.erase(ii++);
+        }else{
+            // 注意：++一定要写否则无法遍历到下一个元素（因为指针没有移动，永远指向当前元素，当然也不会等于smap.end()），会陷入死循环
+            ii++;
+        }
+    }
+    cout << endl;
+    // 再循环内删除元素
+    for(map<string,double>::iterator iii = smap.begin();iii != smap.end();iii++) {
+        cout << "三次遍历，key=" << (iii->first) << ",value=" << (iii->second) << endl;
+        if(iii->first == "a") {
+            // 删除元素（注意：元素删除后就失效了，将返回值值，赋给它，就是让当前 iii不失效）
+            iii = smap.erase(iii);
+        }
+    }
+    cout << "三次遍历完成" << endl;
     return EXIT_SUCCESS;
 }
 
