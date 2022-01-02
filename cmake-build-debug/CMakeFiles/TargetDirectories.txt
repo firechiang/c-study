@@ -1,3 +1,0 @@
-/home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/chiangfire/idea/workspace-cpp/c-study/cmake-build-debug/CMakeFiles/c_study.dir
