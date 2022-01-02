@@ -1,10 +1,6 @@
-#### 一、[安装 Windows GCC编译工具包（注意：/c-study/utils文件夹里面也有）](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/)
-##### [下载 MinGW-W64-install.exe 安装程序](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/)
-![image](https://github.com/firechiang/c-study/blob/master/images/download_gcc.png)
-##### 安装 MinGW-W64-install.exe 安装程序（注意：Threads（线程）选项需要选择posix，因为我们的程序里面使用了C++11相关的线程依赖）
-![image](https://github.com/firechiang/c-study/blob/master/images/install_gcc.png)
-
-#### 二、基础相关说明
+#### 一、[安装 Windows GCC编译工具包](https://github.com/firechiang/c-study/blob/master/docs/windows-gcc-install.md)
+#### 二、[安装 安装QT以及工具包](https://github.com/firechiang/c-study/blob/master/docs/windows-qt-install.md)
+#### 三、基础相关说明
  - .h文件是头文件就是用来定义函数的定义的（一般我们是将.h文件引入到.cpp里面来，然后实现里面的函数定义）
  - 有符号的数值都是使用二进制的首位作为符号标识（0 表示正数，1 表示负数）
  - 32位的机器一次可以处理4个字节的数据（一个字节占8位）
@@ -24,6 +20,6 @@
  - static_cast用于基础数据类型转换，和有继承关系的类对象和类指针之间的转换（可能会丢失精度），它不会产生动态转换的类型安全检查的开销，因为它不做类型检查，完全交给程序员
  - dynamic_cast用于在多态体系中的类型转换(就是有继承关系和虚函数的类)，用于类层次间的向上和向下转换，向下转换时对于不能转换的返回NULL
  
-#### 三、开发注意事项
+#### 四、开发注意事项
  - 指针定义好后建议立即初始化并指向正确的数据(注意:如果没有数据可以指向建议初始化成NULL（就是：int* a = NULL）)
  - 指针内存被释放（释放内存使用delete或free）以后或者不用了建议将指针至为空（a = NULL）
