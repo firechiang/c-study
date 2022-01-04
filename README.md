@@ -1,5 +1,5 @@
 #### 一、[安装 Windows GCC编译工具包](https://github.com/firechiang/c-study/blob/master/docs/windows-gcc-install.md)
-#### 二、[安装 安装QT以及工具包](https://github.com/firechiang/c-study/blob/master/docs/windows-qt-install.md)
+#### 二、[安装QT以及工具包](https://github.com/firechiang/c-study/blob/master/docs/windows-qt-install.md)
 #### 三、基础相关说明
  - .h文件是头文件就是用来定义函数的定义的（一般我们是将.h文件引入到.cpp里面来，然后实现里面的函数定义）
  - 有符号的数值都是使用二进制的首位作为符号标识（0 表示正数，1 表示负数）
@@ -23,3 +23,11 @@
 #### 四、开发注意事项
  - 指针定义好后建议立即初始化并指向正确的数据(注意:如果没有数据可以指向建议初始化成NULL（就是：int* a = NULL）)
  - 指针内存被释放（释放内存使用delete或free）以后或者不用了建议将指针至为空（a = NULL）
+
+#### 五、CMake编译简单使用
+```bash
+# 编译到当前目录（. 表示Cmake配置文件CMakeLists.txt在当前目录，.. 表示表示Cmake配置文件CMakeLists.txt在上层目录）
+$ cmake .
+# 链接生成可执行程序
+# make
+```

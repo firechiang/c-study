@@ -1,6 +1,7 @@
 # other ignore
 Debug/
 cmake-build-debug/
+CMakeFiles/
 
 # eclipse ignore
 .settings/

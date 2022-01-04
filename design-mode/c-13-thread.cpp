@@ -12,6 +12,9 @@
 // 互斥排它锁
 #include <mutex>
 
+// 引入头文件
+#include "c-study-config.h"
+
 using namespace std;
 /**
  * 线程执行函数
